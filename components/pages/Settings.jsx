@@ -19,10 +19,8 @@ const Settings = () => {
 
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Settings</IonTitle>
-        </IonToolbar>
+      <IonHeader className="ion-padding ion-no-border">
+          <h1>Settings</h1>
       </IonHeader>
       <IonContent>
         <IonList>
